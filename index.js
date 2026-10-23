@@ -20,7 +20,7 @@ const Task = mongoose.model(
 
 // Health check
 app.get("/api/health", (req, res) => {
-  res.json({ message: "API is running" });
+  res.json({ message: "API is running with CI/CD pipeline integration" });
 });
 
 // Get all tasks
